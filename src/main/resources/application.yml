@@ -1,0 +1,17 @@
+# PRODUCER CONFIG
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: http://localhost:9092
+---
+# CONSUMER CONFIG
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: http://localhost:9092
+      group-id: group-id
+      auto-offset-reset: earliest
+---
+# GENERAL CONFIG
+test:
+  topic: test-topic
