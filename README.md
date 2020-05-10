@@ -1,10 +1,10 @@
-##Kafka Demo
+## Kafka Demo
 
-###Projeto de demonstração de um producer e um consumer Kafka
+### Projeto de demonstração de um producer e um consumer Kafka
 
 Como o projeto é utilizado apenas para fins didáticos, essa primeira versão conta com o producer e o consumer estão no mesmo projeto. 
 
-###Instruções
+### Instruções
 
 Execute o comando ```docker-compose up``` no diretório raiz do projeto para inicializar o cluster do kafka.
 
