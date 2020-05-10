@@ -2,7 +2,7 @@
 
 ### Projeto de demonstração de um producer e um consumer Kafka
 
-Como o projeto é utilizado apenas para fins didáticos, essa primeira versão conta com o producer e o consumer estão no mesmo projeto. 
+Como o projeto é utilizado apenas para fins didáticos, essa primeira versão conta com o producer e o consumer no mesmo projeto. 
 
 ### Instruções
 
@@ -26,7 +26,7 @@ c.g.e.consumer.MessageConsumer: Partion: 0
 c.g.e.consumer.MessageConsumer: Message: Bem vindo ao mundo Kafka
 ```
 
-###Próximos passos
+### Próximos passos
 
 Demonstrar uso de partições, group-id, offset.
 
